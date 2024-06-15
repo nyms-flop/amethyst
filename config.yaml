@@ -1,4 +1,4 @@
-baseURL: https://amethyst.bencuan.me
+baseURL: https://nyms.me
 
 # Book configuration
 disablePathToLower: true
@@ -24,14 +24,14 @@ menu:
   #     url: "https://google.com"
   #     weight: 10
   after:
-    - name: "Github"
+    - name: "Made with Amethyst"
       url: "https://github.com/64bitpandas/amethyst"
       weight: 10
 
 params:
 
-  name: Ben Cuan
-  title: 📓 Amethyst
+  name: nyms
+  title: floppa net
 
   # OPTIONAL: custom favicon location
   # favicon: 'location/to/favicon.png'
@@ -80,15 +80,15 @@ params:
 
   # Site description and title
   description:
-    Notes, hosted by bencuan
+    Floppa notes, hosted by nyms
 
   
   # Footer links
-  links:
-    - link_name: Website
-      link: https://bencuan.me
-    - link_name: Blog
-      link: https://blog.bencuan.me
+  #links:
+  #  - link_name: Website
+  #    link: https://bencuan.me
+  #  - link_name: Blog
+  #    link: https://blog.bencuan.me
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -110,7 +110,7 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/64bitpandas/amethyst
+  BookRepo: https://github.com/nyms-flop/nyms.me/
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -122,7 +122,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: edit/main/exampleSite
+  # BookEditPath: edit/main/exampleSite
 
   # Configure the date format used on the pages
   # - In git information
